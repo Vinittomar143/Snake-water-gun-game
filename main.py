@@ -1,9 +1,9 @@
 import random
 
-list1 = ["🐍", "🔫", "💧"]
+list1 = ["snake", "gun", "water"]
 
 print("Welcome to the game of snake, water, and gun")
-print("You have to choose one of the three options:\n🐍\n💧\n🔫")
+print("You have to choose one of the three options:\nsnake\nwater\ngun")
 print("Type 'exit' to quit the game.")
 
 win_rounds = 3
@@ -23,13 +23,13 @@ while True:
 
     if user == computer:
       print("Ah! it's a draw🤝")
-    elif user == "🐍" or computer == "🔫":
+    elif user == "snake" or computer == "gun":
         print("Alas! you lose👎")
         computer_wins += 1
-    elif user == "💧" or computer == "🐍":
+    elif user == "water" or computer == "snake":
         print("Alas! you lose👎")
         computer_wins += 1
-    elif user == "🔫" or computer == "💧":
+    elif user == "gun" or computer == "water":
         print("Alas! you lose👎")
         computer_wins += 1
     else:
