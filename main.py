@@ -23,13 +23,13 @@ while True:
 
     if user == computer:
       print("Ah! it's a draw🤝")
-    elif user == "snake" or computer == "gun":
+    elif user == "snake" and computer == "gun":
         print("Alas! you lose👎")
         computer_wins += 1
-    elif user == "water" or computer == "snake":
+    elif user == "water" and computer == "snake":
         print("Alas! you lose👎")
         computer_wins += 1
-    elif user == "gun" or computer == "water":
+    elif user == "gun" and computer == "water":
         print("Alas! you lose👎")
         computer_wins += 1
     else:
