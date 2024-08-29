@@ -45,4 +45,4 @@ while True:
       break
 
   else:
-    print("Invalid choice. Please choose from: 🐍, 💧, or 🔫, or type 'exit' to quit.")
+    print("Invalid choice. Please choose from: snake, water, or gun, or type 'exit' to quit.")
